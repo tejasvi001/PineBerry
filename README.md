@@ -32,28 +32,7 @@ Built with a mobile-first approach, **Pine Berry** ensures smooth and secure sho
 **Payments:**
 - Stripe Payment Gateway
 
----
-📅 Roadmap
- Wishlist feature
 
- Push notifications for order updates
-
- Multi-language support
-
- Coupon & discount codes
-
- Admin panel for easy catalog management
-
-##🤝 Contributing
-We welcome contributions!
-
-Fork the repo
-
-Create a new branch (feature/your-feature)
-
-Commit changes
-
-Open a Pull Request
 ---
 ##📜 License
 This project is licensed under the MIT License — you can use, modify, and distribute it freely while giving credit.
