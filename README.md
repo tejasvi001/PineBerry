@@ -44,7 +44,7 @@ Built with a mobile-first approach, **Pine Berry** ensures smooth and secure sho
 
  Admin panel for easy catalog management
 
-🤝 Contributing
+##🤝 Contributing
 We welcome contributions!
 
 Fork the repo
@@ -55,9 +55,9 @@ Commit changes
 
 Open a Pull Request
 
-📜 License
+##📜 License
 This project is licensed under the MIT License — you can use, modify, and distribute it freely while giving credit.
 
-👨‍💻 Author
-Developed by [Your Name]
-📧 Email: your.email@example.com
+##👨‍💻 Author
+Developed by Tejasvi Vermani
+📧 Email: vermanitejasvi@gmail.com
