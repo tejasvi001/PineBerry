@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pine Berry</string>
+    <string name="first_slide">Choose Your Product</string>
+    <string name="second_slide">Fast Delivery</string>
+    <string name="third_slide">Good Service</string>
+    <string name="description1">
+PineBerry isn\'t your average online store. We understand that everyone has unique preferences and needs. That\'s why we offer a vast selection of products across various categories, allowing you to curate your shopping experience.
+    </string>
+    <string name="description2">
+At PineBerry, we know waiting for your online purchases can be frustrating. That\'s why we prioritize fast and efficient delivery. We offer a streamlined fulfillment system that minimizes delays, ensuring you receive your dream products as soon as possible.
+    </string>
+    <string name="description3">
+PineBerry is not just another online store it is a dedication to exceptional customer service. We understand that a smooth and enjoyable shopping experience is just as important as the products themselves. That is why we go the extra mile to ensure every user feels valued and supported. Whether it is offering a wide variety of high-quality products, building a user friendly platform for easy navigation, or prioritizing fast and reliable delivery, we are constantly striving to make PineBerry the best place to shop online.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

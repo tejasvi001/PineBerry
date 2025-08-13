@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:id="@+id/group1">
+    <item
+        android:id="@+id/navHome"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/navCart"
+        android:title="Cart"
+        android:icon="@drawable/round_shopping_cart"/>
+
+
+</group>
+<group android:id="@+id/group2">
+    <item
+        android:id="@+id/nvAccount"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_account_circle"/>
+
+    <item
+        android:id="@+id/navProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+    <item
+        android:id="@+id/navSettings"
+        android:title="Settings"
+        android:icon="@drawable/round_settings"/>
+
+
+
+</group>
+
+<group android:id="@+id/group3">
+
+
+    <item
+        android:id="@+id/navContact"
+        android:title="Customer Support"
+        android:icon="@drawable/baseline_contact_24"/>
+
+
+    <item
+        android:id="@+id/navAbout"
+        android:title="About Us"
+        android:icon="@drawable/round_about"
+        />
+
+
+   </group>
+<group
+    android:id="@+id/group4">
+    <item
+        android:id="@+id/navShare"
+        android:title="Share"
+        android:icon="@drawable/round_share_24"/>
+
+</group>
+</menu>

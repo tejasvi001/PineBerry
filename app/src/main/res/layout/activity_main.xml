@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/home_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0F3D59"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Pine Berry"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica"
+
+            />
+        <ImageButton
+            android:id="@+id/navigationDrawerButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_menu_24"
+            android:background="#0F3D59"
+            android:padding="5dp"
+            android:layout_gravity="end"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/home_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_toolbar"
+        android:layout_above="@id/bottomNavigationView">
+
+
+    </FrameLayout>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemIconTint="#0F3D59"
+            app:itemTextColor="#0F3D59"
+            app:menu="@menu/bot_nav"
+            android:layout_alignParentBottom="true"
+            tools:ignore="MissingConstraints"
+
+            />
+
+</RelativeLayout>

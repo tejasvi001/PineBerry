@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "266407293888",
+    "project_id": "pineberry-d9571",
+    "storage_bucket": "pineberry-d9571.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266407293888:android:1a8c62d95a9a5d3cec8e25",
+        "android_client_info": {
+          "package_name": "com.example.pineberry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_d2V4YbWAgWLDo_T7sGlB3b3HOHgwco4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266407293888:android:a00d233cfc205f74ec8e25",
+        "android_client_info": {
+          "package_name": "com.example.pineberryy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_d2V4YbWAgWLDo_T7sGlB3b3HOHgwco4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

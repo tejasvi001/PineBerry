@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".fragments.AboutUsFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/about_us_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo" />
+    <TextView
+        android:id="@+id/about_us_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:fontFamily="@font/aclonica"
+        android:textSize="30sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/text_heading"
+        android:textStyle="bold"
+        android:layout_below="@id/about_us_image"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/about_us_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_us_title"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:justificationMode="inter_word"
+        android:text="Welcome to PineBerry! As a pioneering eCommerce brand, we are passionately dedicated to redefining the online shopping experience for our valued customers. Our commitment is to bring you a diverse array of top-quality products, meticulously curated to cater to your every need and preference. At PineBerry, we believe that shopping should be a seamless, enjoyable, and rewarding experience, which is why we focus on providing competitive prices without compromising on quality. Our extensive catalog spans multiple categories, ensuring that whether you're looking for the latest in fashion, cutting-edge electronics, home essentials, or unique gifts, you’ll find exactly what you need. We take pride in our exceptional customer service, striving to exceed your expectations at every step of your shopping journey. Our dedicated team works tirelessly to ensure your satisfaction, from the moment you browse our site to the swift and secure delivery of your purchases. Thank you for choosing PineBerry, where we make shopping delightful and convenient, and look forward to being your go-to destination for all your shopping needs."
+        android:textSize="16sp" />
+
+    <TextView
+        android:padding="20dp"
+        android:layout_below="@id/about_us_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:text=" © Pine Berry 2024"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        />
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
