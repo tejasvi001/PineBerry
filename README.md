@@ -54,10 +54,11 @@ Create a new branch (feature/your-feature)
 Commit changes
 
 Open a Pull Request
-
+---
 ##📜 License
 This project is licensed under the MIT License — you can use, modify, and distribute it freely while giving credit.
-
+---
 ##👨‍💻 Author
 Developed by Tejasvi Vermani
 📧 Email: vermanitejasvi@gmail.com
+---
